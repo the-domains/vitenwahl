@@ -1,28 +1,40 @@
-name: VitenWahl
+layout_spectrum: 0.9468803
 favicon: null
-layout_spectrum: 0.4851624071598053
-typography_spectrum: 0.3296118408907205
-cta:
-  domain: null
-  bucket: null
-  version: null
+name: VitenWahl
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
+cta:
+  version: null
+  bucket: null
+  domain: null
 color:
+  brandStrength: 0.00930818822234869
+  saturation: 0.7957036816515028
   brandColors:
     - '#F7EDF0'
     - '#F4CBC6'
     - '#F4AFAB'
     - '#F4EEA9'
     - '#F4F482'
-  brandStrength: 0.00930818822234869
-  lightness: 0.17445752816274762
-  saturation: 0.7957036816515028
+  lightness: 0.1744575281627476
   rhythmicContrast: 0.8760772047098726
-purpose: []
+typography_spectrum: 0.3296118408907205
